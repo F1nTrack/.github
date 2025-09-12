@@ -4,48 +4,52 @@
 ___
 # ¡Bienvenido al repositorio de FinTrack en GitHub! 📈🐈‍⬛
 
- Somos una startup formada por un equipo de estudiantes de Ingeniería de Software, nos encontramos trabajando juntos para construir una solución innovadora que simplifique la gestión financiera para todas las personas.
+Somos una startup formada por un equipo de estudiantes de Ingeniería de Software. Estamos trabajando juntos para construir una solución innovadora que simplifique la gestión de documentos y la identidad personal en la era digital.
 
+___
 ## Problemática Actual 🧑‍💻
 
-Muchas pequeñas y medianas empresas enfrentan desafíos significativos en la gestión de sus finanzas debido a procesos manuales o herramientas desactualizadas. Actualmente, muchas dependen de hojas de cálculo o software fragmentado, lo que genera:
+Las personas enfrentan desafíos significativos al gestionar sus documentos personales y tarjetas importantes. Actualmente, muchos dependen de sus billeteras físicas o de copias en papel, lo que genera:
 
-* Errores frecuentes por entrada manual de datos o falta de sincronización.
-* Pérdida de tiempo en la consolidación de información financiera, como ingresos, gastos y proyecciones.
-* Falta de acceso remoto a datos financieros actualizados, limitando la toma de decisiones en tiempo real.
-* Dificultades para generar reportes claros y personalizados para auditorías o planificación estratégica.
-* Falta de integración con herramientas modernas, como APIs bancarias o plataformas de pago.
+* Riesgo de pérdida o robo de documentos esenciales (DNI, tarjetas bancarias, licencias), lo que genera estrés y largos trámites de reposición.
+* Pérdida de tiempo en la búsqueda de documentos específicos o la consolidación de información, como saldos de tarjetas de transporte o fechas de vencimiento.
+* Falta de acceso a documentos en situaciones de emergencia o cuando no se llevan consigo.
+* Dificultades para recordar y gestionar las fechas de vencimiento de licencias, carnés y certificados.
+* Falta de integración con sistemas de recarga o pago de servicios, lo que obliga a usar múltiples apps o métodos.
 
-~~~ C++
-Además, los usuarios finales (emprendedores y PYMES) no cuentan con una solución accesible y centralizada para monitorear su salud financiera, realizar previsiones o integrarse con sistemas de facturación y pago.
-~~~
+Además, los usuarios finales (estudiantes, padres, profesionales) no cuentan con una solución accesible y centralizada para monitorear sus documentos personales, realizar pagos o trámites y tener todo en un solo lugar.
 
+___
 ##  Objetivo del Proyecto 📌
 
-~~~C++
-Desarrollar FinTrack, una plataforma integral, automatizada y en la nube para la gestión financiera, que permita a las empresas:
-~~~
 
-* Acceder a sus datos financieros desde cualquier dispositivo con conexión a internet, de forma segura y sincronizada.
-Monitorear ingresos, gastos y flujo de caja en tiempo real, con paneles intuitivos.
-Centralizar la información financiera, incluyendo transacciones, facturas y datos de clientes/proveedores.
-Generar reportes financieros visuales, personalizables y actualizados para apoyar la toma de decisiones.
-Integrar la plataforma con APIs bancarias, sistemas de facturación y herramientas de pago como Stripe o PayPal.
-Ofrecer a los usuarios una experiencia simplificada para planificar presupuestos, prever tendencias y optimizar sus finanzas.
+Desarrollar KapakID, una plataforma integral, segura y en la nube para la gestión de documentos personales, que permita a los usuarios:
 
+
+* Acceder a sus documentos personales y tarjetas desde cualquier dispositivo con conexión a internet, de forma segura y sincronizada.
+* Monitorear saldos de tarjetas de transporte y consultar historiales de pagos en tiempo real.
+* Centralizar la información de documentos de identidad, tarjetas bancarias, licencias y certificados.
+* Generar un historial de trámites y pagos para tener un registro claro de todas sus gestiones.
+* Integrar la plataforma con APIs de transporte, bancarias y de servicios para recargas y pagos.
+* Ofrecer a los usuarios una experiencia simplificada para gestionar su identidad y realizar trámites cotidianos.
+
+___
 ## Impacto Esperado 📢
 
-* Optimización de procesos financieros, reduciendo el tiempo dedicado a tareas manuales.
-* Reducción de errores y mejora en la precisión de los datos financieros.
-* Mejor toma de decisiones gracias a reportes y análisis en tiempo real.
-* Mayor accesibilidad para emprendedores y PYMES, democratizando herramientas financieras avanzadas.
-* Escalabilidad para adaptarse al crecimiento de las empresas y sus necesidades financieras.
+* Reducción de la dependencia de documentos físicos, disminuyendo el riesgo de pérdida.
+* Mayor tranquilidad y seguridad al tener toda la información personal en un solo lugar.
+* Ahorro de tiempo en la gestión de trámites y pagos recurrentes.
+* Mayor accesibilidad para todos, democratizando el acceso a herramientas avanzadas para la gestión de documentos.
+* Escalabilidad para adaptarse al crecimiento y las necesidades de los usuarios, incluyendo la gestión familiar.
 
+___
 ## Herramientas y Tecnologías que Usamos 🔧
-~~~ C++
-Para construir FinTrack, utilizamos un conjunto de herramientas diseñadas para garantizar rendimiento, escalabilidad y una buena experiencia de usuario . Nuestras herramientas incluyen:
-~~~
+
+Para construir KapakID, utilizamos un conjunto de herramientas diseñadas para garantizar rendimiento, escalabilidad y una buena experiencia de usuario. Nuestras herramientas incluyen:
+
 
 * Lenguajes de programación: C#, JavaScript, HTML, CSS
 * Frameworks: Vue.js para el apartado de frontend y .NET para realizar el backend en la segunda mitad de lcurso
 * Bases de datos: MySQL para gestionar los datos financieros
+* Control de versiones: Git
+* Repositorio remoto: GitHub
